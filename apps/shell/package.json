@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@shopbazaar/redux-bridge": "file:../../packages/redux-bridge",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "@shopbazaar/redux-bridge": "file:../../packages/redux-bridge"
+    "@reduxjs/toolkit": "^2.8.2",
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

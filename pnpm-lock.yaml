@@ -10,12 +10,21 @@ importers:
 
   apps/catalog:
     dependencies:
+      '@reduxjs/toolkit':
+        specifier: ^2.8.2
+        version: 2.8.2(react-redux@9.2.0(@types/react@19.1.8)(react@19.1.0)(redux@5.0.1))(react@19.1.0)
+      '@shopbazaar/redux-bridge':
+        specifier: file:../../packages/redux-bridge
+        version: link:../../packages/redux-bridge
       react:
         specifier: ^19.1.0
         version: 19.1.0
       react-dom:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
+      react-redux:
+        specifier: ^9.2.0
+        version: 9.2.0(@types/react@19.1.8)(react@19.1.0)(redux@5.0.1)
     devDependencies:
       '@eslint/js':
         specifier: ^9.30.1
@@ -47,6 +56,9 @@ importers:
 
   apps/shell:
     dependencies:
+      '@reduxjs/toolkit':
+        specifier: ^2.8.2
+        version: 2.8.2(react-redux@9.2.0(@types/react@19.1.8)(react@19.1.0)(redux@5.0.1))(react@19.1.0)
       '@shopbazaar/redux-bridge':
         specifier: file:../../packages/redux-bridge
         version: link:../../packages/redux-bridge
@@ -56,6 +68,9 @@ importers:
       react-dom:
         specifier: ^19.1.0
         version: 19.1.0(react@19.1.0)
+      react-redux:
+        specifier: ^9.2.0
+        version: 9.2.0(@types/react@19.1.8)(react@19.1.0)(redux@5.0.1)
     devDependencies:
       '@eslint/js':
         specifier: ^9.30.1
